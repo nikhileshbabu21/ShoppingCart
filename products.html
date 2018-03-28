@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<form method="post" action="cart.jsp">
+<table class="table table-striped table-hover">
+	<tr class="success">
+		<td>
+			<h3>Laptops</h3>
+			<select multiple name="laptops">
+				<option value="MacBook Pro">MacBook Pro</option>
+				<option value="DELL 14">DELL 14</option>
+				<option value="hp 15">hp 15</option>
+				<option value="ThinkPad 15">ThinkPad 15</option>
+				<option value="SONY 15">SONY 15</option>
+				<option value="Yoga 12">Yoga 12</option>
+			</select>
+		</td>
+		<td>
+			<h3>Storage devices</h3>
+			<input type="checkbox" name="storage" value="Transcend USB" />Transcend USB<br/>
+			<input type="checkbox" name="storage" value="MyPassport 1TB" />MyPassport 1TB<br/>
+			<input type="checkbox" name="storage" value="MyPassport 4TB" />MyPassport 4TB<br/>
+			<input type="checkbox" name="storage" value="WD EasyStore 1TB" />WD EasyStore 1TB<br/>
+			<input type="checkbox" name="storage" value="Thunderbolt 48TB" />Thunderbolt 48TB<br/>
+			<input type="checkbox" name="storage" value="SanDisk 32GB" />SanDisk 32GB<br/>
+		</td>
+	</tr>
+	
+	<tr class="warning">
+		<td>
+			<input type="submit" value="Add to Cart"/>
+		</td>
+	</tr>
+</table>
+</form>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		Yup!
+	</div>
+	
+	<div class="panel-body">
+		Nope!
+	</div>
+</div>
+
+</body>
+</html>
